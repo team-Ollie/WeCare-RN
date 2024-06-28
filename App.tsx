@@ -8,7 +8,7 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <ScreenLayout>
-        <WebView source={{ uri: 'https://team-ollie.github.io/WeCare-FE/main' }} />
+        <WebView source={{ uri: 'https://team-ollie.github.io/WeCare-FE/main' }} allowsBackForwardNavigationGestures />
       </ScreenLayout>
     </SafeAreaProvider>
   )
